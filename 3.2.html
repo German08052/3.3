@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabajo 2</title>
+    <link rel="stylesheet" href="codigocss3.2.css">
+</head>
+<body onload="alCargar()">
+
+    <h1 id="titulo">DOM</h1>
+    <p id="parrafo">Pasa el ratón por aquí para cambiar mi estilo.</p>
+
+    <h3>Lista</h3>
+    <ul id="miLista">
+        <li>Elemento 1</li>
+    </ul>
+    <button id="btnLista">Agregar a lista</button>
+
+    <h3>Hiperenlace</h3>
+    <a href="https://www.google.com" id="miEnlace">Ir a Google</a>
+
+    <h3>Imagen</h3>
+    <img id="miImagen" src="nyancat.jpeg" alt="Nyancat">
+
+    <h3>Tabla</h3>
+    <table id="miTabla">
+        <tr>
+            <th>Dato</th>
+        </tr>
+        <tr>
+            <td>Fila 1</td>
+        </tr>
+    </table>
+    <button id="btnTabla">Agregar fila</button>
+
+    <h3>Formulario</h3>
+    <form id="miFormulario">
+        <input type="text" id="cajaTexto" placeholder="Escribe aquí...">
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="textoMostrado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
